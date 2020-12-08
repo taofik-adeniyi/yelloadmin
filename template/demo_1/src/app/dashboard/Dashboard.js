@@ -722,142 +722,142 @@ export class Dashboard extends Component {
 
     
 
-    const visitData = {
-      labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
-      datasets: [{
-        label: 'Profit',
-        data: [7, 6, 9, 7, 8, 6, 8, 5, 7, 8, 6, 7, 7],
-        borderColor: '#6d7cfc',
-        backgroundColor: gradientBar1,
-        borderWidth: 3,
-        fill: true
-      }]
-    };
-    const impressionData = {
-      labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
-      datasets: [{
-        label: 'Profit',
-        data: [7, 6, 8, 5, 7, 8, 6, 7, 7, 6, 9, 7, 8],
-        borderColor: '#6d7cfc',
-        backgroundColor: gradientBar2,
-        borderWidth: 3,
-        fill: true
-      }]
-    };
-    const conversionData = {
-      labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
-      datasets: [{
-        label: 'Profit',
-        data: [8, 6, 7, 8, 5, 7, 9, 7, 8, 7, 6, 7, 6],
-        borderColor: '#6d7cfc',
-        backgroundColor: gradientBar3,
-        borderWidth: 3,
-        fill: true
-      }]
-    };
-    const downloadData = {
-      labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
-      datasets: [{
-        label: 'Profit',
-        data: [7, 6, 8, 5, 8, 6, 8, 7, 8, 6, 9, 7, 7],
-        borderColor: '#6d7cfc',
-        backgroundColor: gradientBar4,
-        borderWidth: 3,
-        fill: true
-      }]
-    };
+    // const visitData = {
+    //   labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
+    //   datasets: [{
+    //     label: 'Profit',
+    //     data: [7, 6, 9, 7, 8, 6, 8, 5, 7, 8, 6, 7, 7],
+    //     borderColor: '#6d7cfc',
+    //     backgroundColor: gradientBar1,
+    //     borderWidth: 3,
+    //     fill: true
+    //   }]
+    // };
+    // const impressionData = {
+    //   labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
+    //   datasets: [{
+    //     label: 'Profit',
+    //     data: [7, 6, 8, 5, 7, 8, 6, 7, 7, 6, 9, 7, 8],
+    //     borderColor: '#6d7cfc',
+    //     backgroundColor: gradientBar2,
+    //     borderWidth: 3,
+    //     fill: true
+    //   }]
+    // };
+    // const conversionData = {
+    //   labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
+    //   datasets: [{
+    //     label: 'Profit',
+    //     data: [8, 6, 7, 8, 5, 7, 9, 7, 8, 7, 6, 7, 6],
+    //     borderColor: '#6d7cfc',
+    //     backgroundColor: gradientBar3,
+    //     borderWidth: 3,
+    //     fill: true
+    //   }]
+    // };
+    // const downloadData = {
+    //   labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13"],
+    //   datasets: [{
+    //     label: 'Profit',
+    //     data: [7, 6, 8, 5, 8, 6, 8, 7, 8, 6, 9, 7, 7],
+    //     borderColor: '#6d7cfc',
+    //     backgroundColor: gradientBar4,
+    //     borderWidth: 3,
+    //     fill: true
+    //   }]
+    // };
   
 
-    var Datas = [60, 75, 65, 130, 130, 145, 110, 145, 155, 149, 170];
-    var Datas1 = [0, 25, 20, 40, 70, 52, 49, 90, 70, 94, 110, 135];
+    // var Datas = [60, 75, 65, 130, 130, 145, 110, 145, 155, 149, 170];
+    // var Datas1 = [0, 25, 20, 40, 70, 52, 49, 90, 70, 94, 110, 135];
 
 
 
 
   
 
-    const salesStatisticsData = {
-      labels: ["Jan 1", "Jan 7", "Jan 14", "Jan 21", "Jan 28", "Feb 4", "Feb 11", "Feb 18"],
-      datasets: [{
-        label: 'Revenue',
-        data: Datas,
-        borderColor: '#8862e0',
-        backgroundColor: gradientBar5,
-        borderWidth: 2,
-        fill: true
-      }, {
-        label: 'Sales',
-        data: Datas1,
-        borderColor: '#5ed2a1',
-        backgroundColor: gradientBar6,
-        borderWidth: 2,
-        fill: true
-      }]
-    };
+    // const salesStatisticsData = {
+    //   labels: ["Jan 1", "Jan 7", "Jan 14", "Jan 21", "Jan 28", "Feb 4", "Feb 11", "Feb 18"],
+    //   datasets: [{
+    //     label: 'Revenue',
+    //     data: Datas,
+    //     borderColor: '#8862e0',
+    //     backgroundColor: gradientBar5,
+    //     borderWidth: 2,
+    //     fill: true
+    //   }, {
+    //     label: 'Sales',
+    //     data: Datas1,
+    //     borderColor: '#5ed2a1',
+    //     backgroundColor: gradientBar6,
+    //     borderWidth: 2,
+    //     fill: true
+    //   }]
+    // };
 
-    this.setState(salesStatisticsData);
+    // this.setState(salesStatisticsData);
 
 
 
-    const netProfitData = {
-      labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
-          datasets: [{
-            label: "Sales",
-            backgroundColor: 'rgba(88, 208, 222,0.8)',
-            borderColor: 'rgba(88, 208, 222,0.8)',
-            borderWidth: 0,
-            fill: true,
-            radius: 0,
-            pointRadius: 0,
-            pointBorderWidth: 0,
-            pointBackgroundColor: 'rgba(88, 208, 222,0.8)',
-            pointHoverRadius: 10,
-            pointHitRadius: 5,
-            data: [54, 45, 60, 70, 54, 75, 60, 54]
-          }, {
-            label: "Orders",
-            backgroundColor: 'rgba(150, 77, 247,1)',
-            borderColor: 'rgba(150, 77, 247,1)',
-            borderWidth: 0,
-            fill: true,
-            radius: 0,
-            pointRadius: 0,
-            pointBorderWidth: 0,
-            pointBackgroundColor: 'rgba(150, 77, 247,1)',
-            pointHoverRadius: 10,
-            pointHitRadius: 5,
-            data: [65, 75, 70, 80, 60, 80, 36, 60]
-          }]
-    };
-    const totaltransactionData = {
-      labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-      datasets: [{
-        label: 'Sessions',
-        data: [320, 280, 300, 280, 300, 270, 350],
-        backgroundColor: gradientBar7,
-        borderColor: '#fa394e',
-        borderWidth: 0,
-        pointBackgroundColor: "#fa394e",
-        pointRadius: 7,
-        pointBorderWidth: 3,
-        pointBorderColor: '#fff',
-        pointHoverRadius: 7,
-        pointHoverBackgroundColor: "#fa394e",
-        pointHoverBorderColor: "#fa394e",
-        pointHoverBorderWidth: 2,
-        pointHitRadius: 7,
-      }]
-    };
-    this.setState({visitChartData: visitData, impressionChartData:impressionData, conversionChartData:conversionData, downloadChartData:downloadData, salesStatisticsChartData:salesStatisticsData, netProfitChartData:netProfitData, totaltransactionChartData:totaltransactionData} )
-  }
+  //   const netProfitData = {
+  //     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+  //         datasets: [{
+  //           label: "Sales",
+  //           backgroundColor: 'rgba(88, 208, 222,0.8)',
+  //           borderColor: 'rgba(88, 208, 222,0.8)',
+  //           borderWidth: 0,
+  //           fill: true,
+  //           radius: 0,
+  //           pointRadius: 0,
+  //           pointBorderWidth: 0,
+  //           pointBackgroundColor: 'rgba(88, 208, 222,0.8)',
+  //           pointHoverRadius: 10,
+  //           pointHitRadius: 5,
+  //           data: [54, 45, 60, 70, 54, 75, 60, 54]
+  //         }, {
+  //           label: "Orders",
+  //           backgroundColor: 'rgba(150, 77, 247,1)',
+  //           borderColor: 'rgba(150, 77, 247,1)',
+  //           borderWidth: 0,
+  //           fill: true,
+  //           radius: 0,
+  //           pointRadius: 0,
+  //           pointBorderWidth: 0,
+  //           pointBackgroundColor: 'rgba(150, 77, 247,1)',
+  //           pointHoverRadius: 10,
+  //           pointHitRadius: 5,
+  //           data: [65, 75, 70, 80, 60, 80, 36, 60]
+  //         }]
+  //   };
+  //   const totaltransactionData = {
+  //     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+  //     datasets: [{
+  //       label: 'Sessions',
+  //       data: [320, 280, 300, 280, 300, 270, 350],
+  //       backgroundColor: gradientBar7,
+  //       borderColor: '#fa394e',
+  //       borderWidth: 0,
+  //       pointBackgroundColor: "#fa394e",
+  //       pointRadius: 7,
+  //       pointBorderWidth: 3,
+  //       pointBorderColor: '#fff',
+  //       pointHoverRadius: 7,
+  //       pointHoverBackgroundColor: "#fa394e",
+  //       pointHoverBorderColor: "#fa394e",
+  //       pointHoverBorderWidth: 2,
+  //       pointHitRadius: 7,
+  //     }]
+  //   };
+  //   this.setState({visitChartData: visitData, impressionChartData:impressionData, conversionChartData:conversionData, downloadChartData:downloadData, salesStatisticsChartData:salesStatisticsData, netProfitChartData:netProfitData, totaltransactionChartData:totaltransactionData} )
+   }
 
-  toggleProBanner() {
-    document.querySelector('.proBanner').classList.toggle("hide");
-  }
+  // toggleProBanner() {
+  //   document.querySelector('.proBanner').classList.toggle("hide");
+  // }
   render () {
     return (
       <div>
-        <div className="row proBanner">
+        {/* <div className="row proBanner">
           <div className="col-12">
             <span className="d-flex align-items-center purchase-popup">
               <p>Get tons of UI components, Plugins, multiple layouts, 20+ sample pages, and more!</p>
@@ -865,8 +865,8 @@ export class Dashboard extends Component {
               <i className="mdi mdi-close bannerClose" onClick={this.toggleProBanner}></i>
             </span>
           </div>
-        </div>
-        <div className="row page-title-header">
+        </div> */}
+        {/* <div className="row page-title-header">
           <div className="col-12">
             <div className="page-header">
               <h4 className="page-title">Dashboard</h4>
@@ -921,8 +921,8 @@ export class Dashboard extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
           <div className="col-md-12 grid-margin">
             <div className="card">
               <div className="card-body">
@@ -979,8 +979,8 @@ export class Dashboard extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
           <div className="col-md-8 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
@@ -1057,11 +1057,73 @@ export class Dashboard extends Component {
               </div>
             </div>
           </div>
+        </div> */}
+        <div className="row">
+          <div className="col-md-3 grid-margin stretch-card">
+            <div className="card" style={{color: "blue"}}>
+              <div className="card-body">
+                <div className="d-flex justify-content-between pb-2 align-items-center">
+                  <h3 className="font-weight-semibold mb-0">Trivia</h3>
+                  <div className="icon-holder">
+                    <i className="mdi mdi-briefcase-outline"></i>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <h5 className="font-weight-semibold mb-0">4,624</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 grid-margin stretch-card">
+            <div className="card" style={{color: "blue"}}>
+              <div className="card-body">
+                <div className="d-flex justify-content-between pb-2 align-items-center">
+                  <h3 className="font-weight-semibold mb-0">Prediction</h3>
+                  <div className="icon-holder">
+                    <i className="mdi mdi-briefcase-outline"></i>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <h5 className="font-weight-semibold mb-0">4,624</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 grid-margin stretch-card">
+            <div className="card" style={{color: "blue"}}>
+              <div className="card-body">
+                <div className="d-flex justify-content-between pb-2 align-items-center">
+                  <h3 className="font-weight-semibold mb-0">#NO</h3>
+                  <div className="icon-holder">
+                    <i className="mdi mdi-briefcase-outline"></i>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <h5 className="font-weight-semibold mb-0">4,624</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 grid-margin stretch-card">
+            <div className="card" style={{color: "blue"}}>
+              <div className="card-body">
+                <div className="d-flex justify-content-between pb-2 align-items-center">
+                  <h2 className="font-weight-semibold mb-0">Users</h2>
+                  <div className="icon-holder">
+                    <i className="mdi mdi-briefcase-outline"></i>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <h5 className="font-weight-semibold mb-0">4,624</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="row">
           <div className="col-md-8">
             <div className="row">
-              <div className="col-xl-6 col-lg-12 grid-margin stretch-card">
+              {/* <div className="col-xl-6 col-lg-12 grid-margin stretch-card">
                 <div className="card">
                   <div className="card-body pb-0">
                     <div className="d-flex justify-content-between">
@@ -1072,8 +1134,8 @@ export class Dashboard extends Component {
                   </div>
                   <Line data={this.totalRevenueData} options={this.totalRevenueOptions} height={75}/>
                 </div>
-              </div>
-              <div className="col-xl-6 col-lg-12 grid-margin stretch-card">
+              </div> */}
+              {/* <div className="col-xl-6 col-lg-12 grid-margin stretch-card">
                 <div className="card">
                   <div className="card-body pb-0">
                     <div className="d-flex justify-content-between">
@@ -1084,8 +1146,8 @@ export class Dashboard extends Component {
                   </div>
                   <Line data={this.state.totaltransactionChartData} options={this.state.totaltransactionChartOptions} height={75} id="totaltransactionChart"/>
                 </div>
-              </div>
-              <div className="col-md-12 grid-margin">
+              </div> */}
+              {/* <div className="col-md-12 grid-margin">
                 <div className="card">
                   <div className="card-body">
                     <h4 className="card-title mb-0">Market Overview</h4>
@@ -1112,8 +1174,8 @@ export class Dashboard extends Component {
                     <Bar data={this.marketingOverviewData} options={this.marketingOverviewOptions} datasetKeyProvider={this.datasetKeyProvider} height={100} id="marketingOverviewChart1"/>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-12 grid-margin">
+              </div> */}
+              {/* <div className="col-md-12 grid-margin">
                 <div className="card">
                   <div className="card-body">
                     <div className="d-flex justify-content-between">
@@ -1173,8 +1235,8 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-6 grid-margin stretch-card">
+              </div> */}
+              {/* <div className="col-md-6 grid-margin stretch-card">
                 <div className="card">
                   <div className="card-body">
                     <div className="row">
@@ -1197,8 +1259,8 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-6 grid-margin stretch-card average-price-card">
+              </div> */}
+              {/* <div className="col-md-6 grid-margin stretch-card average-price-card">
                 <div className="card text-white">
                   <div className="card-body">
                     <div className="d-flex justify-content-between pb-2 align-items-center">
@@ -1213,12 +1275,12 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4">
             <div className="row">
-              <div className="col-md-12 grid-margin">
+              {/* <div className="col-md-12 grid-margin">
                 <div className="card">
                   <div className="card-body">
                     <h1 className="card-title mb-4">Website Audience Metrics</h1>
@@ -1263,8 +1325,8 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-12 grid-margin">
+              </div> */}
+              {/* <div className="col-md-12 grid-margin">
                 <div className="card">
                   <div className="card-body">
                     <h4 className="card-title mb-4">World sellings</h4>
@@ -1333,8 +1395,8 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-12 grid-margin">
+              </div> */}
+              {/* <div className="col-md-12 grid-margin">
                 <div className="card">
                   <div className="card-body">
                     <h4 className="card-title mb-0">Top Performer</h4>
@@ -1372,12 +1434,12 @@ export class Dashboard extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 grid-margin stretch-card">
+          {/* <div className="col-md-4 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title mb-0">Recent Events</h4>
@@ -1412,8 +1474,8 @@ export class Dashboard extends Component {
                 <a className="d-block mt-5" href="!#" onClick={evt =>evt.preventDefault()}>Show all</a>
               </div>
             </div>
-          </div>
-          <div className="col-md-4 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-md-4 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <div className="d-flex justify-content-between pb-3">
@@ -1445,12 +1507,12 @@ export class Dashboard extends Component {
                 <a className="d-block mt-3" href="!#" onClick={evt =>evt.preventDefault()}>Show all</a>
               </div>
             </div>
-          </div>
-          <div className="col-md-4 grid-margin stretch-card">
+          </div> */}
+          <div className="col-md-4 grid-margin stretch-card" style={{marginBottom: "250px"}}>
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title mb-0">People Also Watch</h4>
-                <div className="table-responsive">
+                {/* <div className="table-responsive">
                   <table className="table table-stretched">
                     <thead>
                       <tr>
@@ -1490,8 +1552,8 @@ export class Dashboard extends Component {
                       </tr>
                     </tbody>
                   </table>
-                </div>
-                <a className="d-block mt-3" href="!#" onClick={evt =>evt.preventDefault()}>Show all</a>
+                </div> */}
+                {/* <a className="d-block mt-3" href="!#" onClick={evt =>evt.preventDefault()}>Show all</a> */}
               </div>
             </div>
           </div>
