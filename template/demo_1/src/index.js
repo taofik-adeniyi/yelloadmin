@@ -6,7 +6,9 @@ import "./i18n";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter basename="/demo/star-admin-free/react/template/demo_1/preview">
+  <BrowserRouter 
+  basename="/yellostar">
+  {/* basename="/demo/star-admin-free/react/template/demo_1/preview"> */}
     <App />
   </BrowserRouter>
 , document.getElementById('root'));

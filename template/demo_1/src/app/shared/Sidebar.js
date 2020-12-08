@@ -68,8 +68,8 @@ class Sidebar extends Component {
                       <div className="dot-indicator bg-success"></div>
                     </div>
                     <div className="text-wrapper">
-                      <p className="profile-name">Allen Moreno</p>
-                      <p className="designation">Premium user</p>
+                      <p className="profile-name">Andrew Humber</p>
+                      <p className="designation">Sudo User</p>
                     </div>
                     
                   </div>
