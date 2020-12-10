@@ -123,8 +123,8 @@ class Sidebar extends Component {
             </div>
             <Collapse in={ this.state.basicUiMenuOpen }>
               <ul className="nav flex-column sub-menu">
-                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/buttons') ? 'nav-link active' : 'nav-link' } to="/basic-ui/buttons"><Trans>All Trivia</Trans></Link></li>
-                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/dropdowns') ? 'nav-link active' : 'nav-link' } to="/basic-ui/dropdowns"><Trans>Won Trivia</Trans></Link></li>
+                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/buttons') ? 'nav-link active' : 'nav-link' }  to="/all-trivia"><Trans>All Trivia</Trans></Link></li>
+                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/dropdowns') ? 'nav-link active' : 'nav-link' }  to="/won-trivia"><Trans>Won Trivia</Trans></Link></li>
               </ul>
             </Collapse>
           </li>
@@ -136,17 +136,21 @@ class Sidebar extends Component {
             </div>
             <Collapse in={ this.state.formElementsMenuOpen }>
               <ul className="nav flex-column sub-menu">
-                <li className="nav-item"> <Link className={ this.isPathActive('/form-elements/basic-elements') ? 'nav-link active' : 'nav-link' } to="/form-elements/basic-elements"><Trans>All Prediction</Trans></Link></li>
-                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/dropdowns') ? 'nav-link active' : 'nav-link' } to="/basic-ui/dropdowns"><Trans>Won Prediction</Trans></Link></li>
+                <li className="nav-item"> <Link className={ this.isPathActive('/form-elements/basic-elements') ? 'nav-link active' : 'nav-link' } to="/form-elements/basic-elements" to="/all-prediction"><Trans>All Prediction</Trans></Link></li>
+                <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/dropdowns') ? 'nav-link active' : 'nav-link' } to="/basic-ui/dropdowns" to="/won-prediction"><Trans>Won Prediction</Trans></Link></li>
               </ul>
             </Collapse>
           </li>
           <li className={ this.isPathActive('/tables') ? 'nav-item active' : 'nav-item' }>
-            <div className={ this.state.tablesMenuOpen ? 'nav-link menu-expanded' : 'nav-link' } onClick={ () => this.toggleMenuState('tablesMenuOpen') } data-toggle="collapse">
+            {/* <div className={ this.state.tablesMenuOpen ? 'nav-link menu-expanded' : 'nav-link' } onClick={ () => this.toggleMenuState('tablesMenuOpen') } data-toggle="collapse">
               <i className="mdi mdi-table-large menu-icon"></i>
               <span className="menu-title"><Trans>Users</Trans></span>
-              {/* <i className="menu-arrow"></i> */}
-            </div>
+              <i className="menu-arrow"></i>
+            </div> */}
+            <Link className={ this.isPathActive('/tables/basic-table') ? 'nav-link active' : 'nav-link' } to="/all-players">
+              <i className="mdi mdi-television menu-icon"></i>
+              <span className="menu-title"><Trans>Users</Trans></span>
+            </Link>
             {/* <Collapse in={ this.state.tablesMenuOpen }>
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item"> <Link className={ this.isPathActive('/tables/basic-table') ? 'nav-link active' : 'nav-link' } to="/tables/basic-table"><Trans>Basic Table</Trans></Link></li>
@@ -180,7 +184,7 @@ class Sidebar extends Component {
           <li className={ this.isPathActive('/user-pages') ? 'nav-item active' : 'nav-item' }>
             <div className={ this.state.userPagesMenuOpen ? 'nav-link menu-expanded' : 'nav-link' } onClick={ () => this.toggleMenuState('userPagesMenuOpen') } data-toggle="collapse">
               <i className="mdi mdi-lock-outline menu-icon"></i>
-              <span className="menu-title"><Trans>User Pages</Trans></span>
+              <span className="menu-title"><Trans>Login Logout</Trans></span>
               <i className="menu-arrow"></i>
             </div>
             <Collapse in={ this.state.userPagesMenuOpen }>

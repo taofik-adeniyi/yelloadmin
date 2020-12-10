@@ -6,16 +6,16 @@ export class BasicTable extends Component {
     return (
       <div>
         <div className="page-header">
-          <h3 className="page-title"> Basic Tables </h3>
-          <nav aria-label="breadcrumb">
+          <h3 className="page-title"> All Players </h3>
+          {/* <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item"><a href="!#" onClick={event => event.preventDefault()}>Tables</a></li>
               <li className="breadcrumb-item active" aria-current="page">Basic tables</li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
         <div className="row">
-          <div className="col-lg-6 grid-margin stretch-card">
+          {/* <div className="col-lg-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Basic Table</h4>
@@ -67,8 +67,8 @@ export class BasicTable extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-6 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-lg-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Hoverable Table</h4>
@@ -120,8 +120,8 @@ export class BasicTable extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-lg-12 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Striped Table</h4>
@@ -221,8 +221,8 @@ export class BasicTable extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-lg-12 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Bordered table</h4>
@@ -309,8 +309,8 @@ export class BasicTable extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-lg-12 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Inverse table</h4>
@@ -374,13 +374,15 @@ export class BasicTable extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-12 stretch-card">
             <div className="card">
               <div className="card-body">
-                <h4 className="card-title">Table with contextual classNames</h4>
-                <p className="card-description"> Add className <code>.table-&#123;color&#125;</code>
-                </p>
+                <h4 className="card-title">
+                  List of All Active Users
+                </h4>
+                {/* <p className="card-description"> Add className <code>.table-&#123;color&#125;</code>
+                </p> */}
                 <div className="table-responsive">
                   <table className="table table-bordered">
                     <thead>
@@ -423,6 +425,27 @@ export class BasicTable extends Component {
                       </tr>
                       <tr className="table-primary">
                         <td> 5 </td>
+                        <td> Edward </td>
+                        <td> Illustrator </td>
+                        <td> $ 160.25 </td>
+                        <td> May 03, 2015 </td>
+                      </tr>
+                      <tr className="table-primary">
+                        <td> 6 </td>
+                        <td> Edward </td>
+                        <td> Illustrator </td>
+                        <td> $ 160.25 </td>
+                        <td> May 03, 2015 </td>
+                      </tr>
+                      <tr className="table-primary">
+                        <td> 7 </td>
+                        <td> Edward </td>
+                        <td> Illustrator </td>
+                        <td> $ 160.25 </td>
+                        <td> May 03, 2015 </td>
+                      </tr>
+                      <tr className="table-primary">
+                        <td> 8 </td>
                         <td> Edward </td>
                         <td> Illustrator </td>
                         <td> $ 160.25 </td>

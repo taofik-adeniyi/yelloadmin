@@ -5,12 +5,13 @@ import Spinner from '../app/shared/Spinner';
 
 const Dashboard = lazy(() => import('./dashboard/Dashboard'));
 
-const Buttons = lazy(() => import('./basic-ui/Buttons'));
-const Dropdowns = lazy(() => import('./basic-ui/Dropdowns'));
+const Trivia = lazy(() => import('./basic-ui/Buttons'));
+const WonTrivia = lazy(() => import('./basic-ui/Dropdowns'));
 
-const BasicElements = lazy(() => import('./form-elements/BasicElements'));
+const Prediction = lazy(() => import('./form-elements/BasicElements'));
+const WonPrediction = lazy(() => import('./basic-ui/WonPrediction'));
 
-const BasicTable = lazy(() => import('./tables/BasicTable'));
+const AllPlayers = lazy(() => import('./tables/BasicTable'));
 
 const Mdi = lazy(() => import('./icons/Mdi'));
 
@@ -32,12 +33,14 @@ class AppRoutes extends Component {
           
           <Route exact path="/dashboard" component={ Dashboard } />
 
-          <Route path="/basic-ui/buttons" component={ Buttons } />
-          <Route path="/basic-ui/dropdowns" component={ Dropdowns } />
+          <Route path="/all-trivia" component={ Trivia } />
+          <Route path="/won-trivia" component={ WonTrivia } />
 
-          <Route path="/form-Elements/basic-elements" component={ BasicElements } />
+          <Route path="/all-prediction" component={ Prediction } />
+          <Route path="/won-prediction" component={ WonPrediction } />
 
-          <Route path="/tables/basic-table" component={ BasicTable } />
+
+          <Route path="/all-players" component={ AllPlayers } />
 
           <Route path="/icons/mdi" component={ Mdi } />
 
